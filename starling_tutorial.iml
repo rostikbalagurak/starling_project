@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="starling_tutorial">
+    <configurations>
+      <configuration name="starling_tutorial" target-platform="Mobile" pure-as="true" main-class="StarlingProject" output-file="starling_tutorial.swf" output-folder="$USER_HOME$/IdeaProjects/fcmobile/classes/production/starling_tutorial">
+        <dependencies target-player="15.0">
+          <entries>
+            <entry library-id="6aeb532f-6212-44c7-b5b5-27607a9b1142">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="61f345e9-5ac8-4ef7-932a-430347fa306f">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="22251d29-f416-49d9-9a21-6be775de6e5b">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="version 15.0.0.356" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/StarlingProject-app.xml" package-file-name="starling_tutorial" />
+        <packaging-ios package-file-name="starling_tutorial" />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="version 15.0.0.356" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="starling" level="project" />
+    <orderEntry type="library" exported="" name="bin" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="6aeb532f-6212-44c7-b5b5-27607a9b1142" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/starling/bin" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib/starling/src" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib/starling/bin" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="61f345e9-5ac8-4ef7-932a-430347fa306f" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib/stats/bin" />
+          <root url="file://$MODULE_DIR$/lib/stats/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib/stats/src" />
+          <root url="file://$MODULE_DIR$/lib/stats/test" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib/stats/bin" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/lib/stats/libs" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="22251d29-f416-49d9-9a21-6be775de6e5b" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/greensock.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

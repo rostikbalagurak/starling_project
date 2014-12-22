@@ -1,0 +1,15 @@
+src/FlexUnitApplication.mxml
+src/FlexUnitCompilerApplication.mxml
+target
+bin/FlexUnitApplication.swf
+bin-debug
+bin-release
+*.iml
+.actionScript*
+.flex*
+.Flex*
+.project
+.settings/
+.DS_Store
+launch
+org.eclipse.core.resources.prefs
